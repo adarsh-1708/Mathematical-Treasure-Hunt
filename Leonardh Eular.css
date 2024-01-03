@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    /* display: flex; */
+    top: 0;
+    position: sticky;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 80%;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('/bg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstSection {
+    height: 100vh;
+}
+
+.box-main {
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 60%;
+    margin: auto;
+}
+
+.firstHalf {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondHalf {
+    width: 30%;
+    padding: 50px 0px;
+}
+
+.secondHalf img {
+    width: 170%;
+    /* padding: 4px 0px; */
+    /* border: aqua; */
+    border: 1px solid darkgrey;
+    border-radius: 75px;
+    display: block;
+    margin: auto;
+}
+
+.text-big {
+    font-size: 40px;
+    color: rgb(221, 142, 142);
+}
+
+.text-small {
+    font-size: 20px;
+}
+
+.btn {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 8px 20px;
+    margin: 10px 5px;
+    border: 2px solid wheat;
+    border-radius: 8px;
+    /* font-size: 15px; */
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(224, 179, 120);
+    color: black;
+}
+
+.text-footer {
+    text-align: center;
+    padding: 20px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+}
+
+.text {
+    font-size: 20px;
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width:1142px) {
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .text {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo img {
+        text-align: center;
+        width: 100%;
+        /* height: 50px;/ */
+        /* width: 50px; */
+    }
+    .box-main {
+        height: 80%;
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .text-big {
+        text-align: center;
+    }
+    .text-small {
+        text-align: center;
+    }
+    .button {
+        text-align: center;
+    }
+    .secondHalf {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .secondHalf img {
+        /* padding-top: 30%; */
+        /* border: 1px solid rgb(0, 0, 0); */
+    }
+    .logo {
+        width: 50%;
+    }
+    .firstSection {
+        height: 165vh;
+    }
+}

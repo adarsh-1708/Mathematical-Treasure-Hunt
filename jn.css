@@ -1,0 +1,128 @@
+p {
+    position: absolute;
+    left: 400px;
+    top: 150px;
+}
+
+.container {
+    max-width: 820px;
+    margin: 40px 90px;
+    margin-top: -130px;
+}
+body {
+    background-image: url('BB1.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .container .btn {
+    position: absolute;
+    top: 340px;
+    left: 1300px;
+    transform: translate(-700%, +405%);
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    Text-align: center;
+    background-color: rgb(150, 12, 192);
+    color: white;
+    height: 40px;
+    width: 100px;
+}
+
+.container.btn:hover {
+    background-color: black;
+    color: white;
+}
+.comment input {
+    margin-left: 300px;
+    margin-top: 0px;
+    height: 30px;
+}
+#logo{
+    top: 0px;
+    height: 100px;
+    width: 100px;
+    margin-left: 60px;
+}
+#jn{
+    margin-left: 600px;
+}
+h2{
+    margin-top: 5px;
+}
+.comment .textinput{
+    margin-left: 300px;
+}
+
+.ft p{
+     color: #f1f1f1;
+     margin-top: 490px;
+    
+}
+.ft .text-footer{
+    margin-right: -100px;
+    margin-left: -400px;
+    background-color: rgb(54, 56, 56);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+@media screen and (max-width:1105px){
+    #jn{
+     height: 930px;
+     width: 1030px;
+     margin-left: 570px;
+     margin-top: 700px;
+  }
+
+    #logo{
+     height: 250px;
+     width: 250px;
+     margin-left: 100px;
+     margin-top: 30px;
+    }
+    .container .btn{
+                    height: 80px;
+                    width: 150px;
+                    margin-left: 400px;
+                    margin-top: 1520px;
+                    border-radius: 20px;
+    }
+    p{
+        font-size: 50px;
+        margin-top: 860px;
+        margin-left: -200px;
+    }
+    .comment .textinput{
+                         height: 120px;
+                         width: 600px;
+                         margin-top: 200px;
+                         margin-left: 350px;
+    }
+    h2{
+          font-size: 30px;
+          margin-top: 18px;
+
+    }
+    .ft .text-footer{
+        font-size: 36px;
+        margin-left: -720px;
+        margin-right: -910px;
+        margin-top: 3139px;
+    }
+    .comment input{
+        height: 70px;
+        width: 500px;
+        margin-top: 270px;
+        margin-left: 380px;
+        font-size: 40px;
+    }
+}
+

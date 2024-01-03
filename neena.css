@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url('BB1.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.abc {
+    padding-left: 90vh;
+    margin-top: -50px;
+}
+.qna p {
+    position: absolute;
+    left: 400px;
+    top: 200px;
+}
+.comment input {
+    margin-left: 390px;
+    margin-top: 2px;
+    height: 30px;
+}
+.def {
+    margin-top: 30px;
+    margin-left: 430px;
+    font-size: 40px;
+}  
